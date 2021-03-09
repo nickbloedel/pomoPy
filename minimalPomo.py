@@ -11,7 +11,7 @@ from PyQt5.QtCore import *
 import itertools
 
 #GLOBALS
-POMO_TIME = 10; #1500 seconds -> 25 minutes
+POMO_TIME = 1500; #1500 seconds -> 25 minutes
 BREAK_TIME = 315; #315 seconds -> 5 minutes + 15 seconds to pause work
 TIME_SWITCH = itertools.cycle([BREAK_TIME, POMO_TIME])
 
